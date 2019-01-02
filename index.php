@@ -165,9 +165,32 @@
            </div>
             </div>
         </div>
+
+        <!-- Modal -->
+<div id="notificationModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <p style="font-size:40px; color:red;">Simran Digital Seva की तरफ से आप सभी को नववर्ष की हार्दिक शुभकामनाएं|</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <script>
+
+    $(document).ready(function(){
+
+      $("#notificationModal").modal({backdrop: true});
+
+    });
+
     var a = document.getElementById("pid").value ;
     document.getElementById(a).setAttribute("class","active") ;
+
 </script>
 
 <?php include("includes/footer.php")?>
