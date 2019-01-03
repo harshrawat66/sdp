@@ -65,9 +65,9 @@ if(isset($_POST['token']))
     }
 
     if($msg){
-      echo '<script>alert("PAN Application Successfully Submitted"); window.location = "dashboard.php";</script>' ;
+      echo '<script>alert("PAN Application Successfully Submitted"); window.close();</script>' ;
     }else {
-      echo '<script>alert("Sorry! We are currently unable to process your request. Try Again!!!"); window.location = "update.php";</script>' ;
+      echo '<script>alert("Sorry! We are currently unable to process your request. Try Again!!!"); window.close();</script>' ;
     }
 
 }
