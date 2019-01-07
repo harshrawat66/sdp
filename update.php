@@ -111,12 +111,6 @@
                  <li>
                     <a href="wallet.php"><i class="fa fa-fw fa-table"></i>Wallet Recharge</a>
                 </li>
-                <li>
-                   <a href="panregister.php"><i class="fa fa-fw fa-table"></i>New PAN Card</a>
-               </li>
-               <li>
-                  <a href="update.php"><i class="fa fa-fw fa-table"></i>Update PAN Card</a>
-              </li>
                  <li>
                     <a href="techsupport.php"><i class="fa fa-tint"></i>Tech Support</a>
                 </li>
