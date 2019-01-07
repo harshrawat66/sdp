@@ -58,7 +58,7 @@ if(isset($_GET['logout']))
             <li>
             <?php
                 $vendor = $_SESSION['vendor_id'];
-                $con = mysqli_connect("localhost","","","");
+                $con = mysqli_connect("localhost:3306","simrandi_u10001","simranmydigital","simrandi_digital");
                 $query = "SELECT wallet_bal AS value_sum FROM wallet_balance WHERE vendor_id = '$vendor'";
                 $result = mysqli_query($con,$query);
                 $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
@@ -127,7 +127,7 @@ if(isset($_GET['logout']))
                         <div class="thumbnail">
                           <img src="img/icons/pan1.png" alt="Pan Services" height="200" width="150">
                           <div class="caption">
-                              <center><h3><a href="panhome.php" target="_blank">Pan Services</a></h3></center>
+                              <center><h3><a href="panhome.php">Pan Services</a></h3></center>
                           </div>
                         </div>
                       </a>
